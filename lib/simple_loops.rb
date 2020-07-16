@@ -9,3 +9,5 @@ def loop_message_n_times(string, n)
     puts string
   end
 end
+
+loop_message_n_times("sam", 5)
