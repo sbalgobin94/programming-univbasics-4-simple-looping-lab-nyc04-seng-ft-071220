@@ -16,3 +16,5 @@ def output_array(array)
     puts array[counter]
   end
 end
+
+output_array("sam")
