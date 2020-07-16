@@ -4,4 +4,8 @@ def loop_message_five_times(string)
   end
 end
 
-loop_message_five_times("sam")
+def loop_message_n_times(string, n)
+  n.times do
+    puts string
+  end
+end
