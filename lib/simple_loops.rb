@@ -10,4 +10,9 @@ def loop_message_n_times(string, n)
   end
 end
 
-loop_message_n_times("sam", 5)
+def output_array(array)
+  counter = 0
+  while counter < array.length do
+    puts array[counter]
+  end
+end
